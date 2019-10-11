@@ -33,9 +33,9 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="Configurações" />
         <item
-            android:id="@+id/nav_legal"
+            android:id="@+id/nav_perfil"
             android:icon="@android:drawable/ic_menu_sort_by_size"
-            android:title="Termos de serviço" />
+            android:title="Perfil" />
     </group>
 
 

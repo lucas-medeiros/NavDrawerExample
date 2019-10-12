@@ -17,6 +17,8 @@ public class EditarPerfilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editar_perfil);
 
+        getSupportActionBar().setTitle("Editar Perfil");
+
         final ImageButton imageButton_fotoPerfilEP = findViewById(R.id.imageButton_fotoPerfilEP);
         final Button bConfimar = findViewById(R.id.button_confirmarEP);
         final EditText etNome = findViewById(R.id.et_nomeEP);

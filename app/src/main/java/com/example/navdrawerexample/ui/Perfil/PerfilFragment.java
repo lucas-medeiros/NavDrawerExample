@@ -55,8 +55,8 @@ public class PerfilFragment extends Fragment {
         alPets.add(pet3);
         alPets.add(pet4);
 
-        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, alPets);
-        //PetList.setAdapter(adapter);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(),android.R.layout.simple_list_item_1, alPets);
+        PetList.setAdapter(adapter);
 
 
         //EditText SETUP:

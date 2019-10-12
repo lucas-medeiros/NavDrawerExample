@@ -88,10 +88,8 @@ public class PerfilFragment extends Fragment {
         imageButton_editarPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent editarPerfilIntent = new Intent(PerfilFragment.this, EditarPerfilActivity.class);
-                //startActivity(editarPerfilIntent);
-
-
+                Intent editarPerfilIntent = new Intent(getActivity(), EditarPerfilActivity.class);
+                startActivity(editarPerfilIntent);
 
             }
         });
